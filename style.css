@@ -1,0 +1,90 @@
+.image{
+    display: flex;
+    justify-content:end;
+    margin-right: 50px;
+    
+
+}
+.picture{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+ 
+ .main{
+    display: flex;
+    justify-content: space-between;
+ }
+ #input{
+    width: 200px;
+    height: 30px;
+ }
+
+ #input2{
+    width: 200px;
+    height: 30px;
+ }
+
+ #input3{
+    width: 200px;
+    height: 30px;
+ }
+ button{
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 12px;
+    color: aliceblue;
+ }
+ button:hover{
+    background-color: rgb(3, 3, 216);
+    transition-duration:0.3s;
+    
+ }
+ 
+ .input_section{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .Biodata{
+    margin-left: 50px;
+ }
+
+#show_text{
+    font-size: 30px;
+
+}
+#show_text2{
+    color: red !important;
+    font-size: 30px;
+
+}
+
+#show_text3{
+    font-size: 30px;
+    color:rgb(15, 212, 15) !important;
+
+}
+.show_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;;
+}
+
+.Biodata{
+  width: 300px;
+  height: 150px;
+  padding: 15px;
+  background-color: rgb(249, 247, 247);
+  box-shadow: 10px 10px 5px rgb(184, 183, 183);
+  margin-top: 20px;
+}
+
+
+
+  
